@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>TabHotel</title>
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="Assets/css/framework7.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="Assets/css/my-app.css">
+  </head>
+  <body>
+    <!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Views-->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class-->
+      <div class="view view-main">
+        <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+          <!-- Page, data-page contains page name-->
+          <div data-page="index" class="page">
+            <!-- Scrollable page content-->
+            <div class="page-content wrapper-languages">
+                <h1>Choose your language</h1>
+                <div class="language">
+                	<ul class="list-languages">
+                		<li class="item">
+                			<a href="Pages/category.html" class="item-link">
+                				<img src="Assets/img/France.png" class="flag" />
+                				<p>French</p>
+                			</a>
+                		</li>
+                		<li class="item">
+                			<a href="Pages/category.html" class="item-link">
+                				<img src="Assets/img/United-Kingdom.png" class="flag" />
+                				<p>English</p>
+                			</a>
+                		</li>
+                		<li class="item">
+                			<a href="Pages/category.html" class="item-link">
+                				<img src="Assets/img/Spain.png" class="flag" />
+                				<p>Spanish</p>
+                			</a>
+                		</li>
+                	</ul>
+                </div>
+                <div id="logo-today">
+                	<img src="Assets/img/LogoTodayInParis.png" />
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="Assets/js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="Assets/js/my-app.js"></script>
+  </body>
+</html>-
